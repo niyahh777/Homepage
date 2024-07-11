@@ -1,0 +1,35 @@
+body{
+background-color: black;
+}
+#borderimg { 
+  border: 10px solid;
+  padding: 15px;
+  border-image: url(https://image.spreadshirtmedia.net/image-server/v1/designs/188859709,width=178,height=178.png) 30 round;
+}
+.container{
+  background-color: yellow;
+  width:300px;
+  height:300px;
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border-radius: 100%;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  background: url(https://image.spreadshirtmedia.net/image-server/v1/designs/188859709,width=178,height=178.png);
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+
+@keyframes example {
+  from {background-color:yellow;}
+  to {background-color:black;}
+}
+
+
+
+
+
+

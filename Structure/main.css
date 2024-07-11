@@ -1,0 +1,135 @@
+h1{
+   color: rgb(5, 124, 88);
+   text-decoration: blueviolet;
+   text-underline-position: below;
+   text-align: center;
+}
+
+body{
+   background-image: url(https://64.media.tumblr.com/03bc0b5d1f42a6188638344a755d09f7/tumblr_nh74k6LDrj1u178jeo1_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img{
+   width:300px ;
+   height:125px ;
+}
+
+.cirlce{
+ color: aqua;
+ size: 30px;
+ border-radius: 100%;
+ margin-bottom: 100px;
+}
+
+.loli1{
+   background:rgba(255, 75, 75, 0.733);
+   width:200px;
+   height:200px;
+   position:fixed;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   border-radius: 100%;
+}
+
+.stick1{
+   background: rgb(250, 245, 202);
+   position:absolute;
+   width:20px ;
+   height: 400px;
+   top: -5px;
+   right: 245px;
+   margin:0;
+   border: 5px solid rgb(214, 175, 117);
+   
+}
+
+.loli2{
+   background: plum;
+   width:200px;
+   height:200px;
+   position:fixed;
+   top:50%;
+   left:-80%;
+   transform:translate(-50%,-50%);
+   border-radius: 100%;
+
+}
+.stick2{
+   background: rgb(250, 245, 202);
+   position:absolute;
+   width:20px ;
+   height: 400px;
+   top: -2px;
+   right: 255px;
+   margin:0;
+   border: 5px solid rgb(214, 175, 117);
+   
+}
+.loli3{
+   background: rgb(69, 116, 245);
+   width:200px;
+   height:200px;
+   position:fixed;
+   top:50%;
+   left:-75%;
+   transform:translate(-50%,-50%);
+   border-radius: 100%;
+}
+.stick3{
+   background: rgb(250, 245, 202);
+   position:absolute;
+   width:20px ;
+   height: 400px;
+   top: -2px;
+   right: 275px;
+   margin:0;
+   border: 5px solid rgb(214, 175, 117);
+   
+}
+
+.loli4{
+   background: rgb(245, 198, 69);
+   width:200px;
+   height:200px;
+   position:fixed;
+   top:50%;
+   right:-440%;
+   transform:translate(-50%,-50%);
+   border-radius: 100%;
+
+}
+.stick4{
+   background: rgb(250, 245, 202);
+   position:absolute;
+   width:20px ;
+   height: 400px;
+   top: -2px;
+   right: 250px;
+   margin:0;
+   border: 5px solid rgb(214, 175, 117);
+   
+}
+.loli5{
+   background: rgb(50, 218, 148);
+   width:200px;
+   height:200px;
+   position:fixed;
+   top:50%;
+   right:-180%;
+   transform:translate(-50%,-50%);
+   border-radius: 100%;
+
+}
+.stick5{
+   background: rgb(250, 245, 202);
+   position:absolute;
+   width:20px ;
+   height: 400px;
+   bottom:-200%;
+   left:45%;
+   margin:0;
+   border: 5px solid rgb(214, 175, 117);
+   
+}

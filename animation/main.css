@@ -1,0 +1,122 @@
+body{
+    background-color: lightblue;
+}
+img{
+    max-width: 100%;
+}
+
+.square{
+    background: lightgoldenrodyellow;
+    width:200px ;
+    height:200px;
+    /*animation-name:test;
+    animation-duration:4s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;*/
+    animation: test 4s infinite alternate linear 5s both;
+}
+
+@keyframes test{
+    0% {
+      background: lightgoldenrodyellow;
+    }
+    100%{
+        background: palevioletred;
+    }
+}
+
+.container{
+    background: pink;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.circle{
+    background: lightgoldenrodyellow;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    animation: pulse 2s infinite alternate ease-in-out;
+}
+
+@keyframes pulse {
+    0%{
+        background: lightgoldenrodyellow;
+        transform: scale(1);
+    }
+    
+}
+
+.box{
+    background: lightgoldenrodyellow;
+    width: 15vw;
+    height: 15vw;
+    animation: spin 4s infinite linear ;
+}
+
+@keyframes spin{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(100vw);
+    }
+}
+
+.mover{
+    background-color: aqua;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: move 4s infinite ease-in-out ;
+}
+
+@keyframes move {
+    0%{
+        transform: translateX(-100px);
+
+    }
+    100%{
+        transform: translateX(100vw);
+    }
+}
+
+.changer{
+    background-color: blueviolet;
+    width: 10vw;
+    height: 10vw;
+    
+    transition:
+     background 4s, 
+     border-radius 4s, 
+     transform 4s;
+}
+
+.changer:hover{
+/*animation: change 4s forwards;*/
+
+background: lightgoldenrodyellow;
+transform: rotate(360deg);
+border-radius: 100%;
+
+}
+
+@keyframes change{
+    0%{
+        background: pink;
+        transform: rotate(0);
+        border-radius: 0;
+    }
+    100%{
+        background: lightgoldenrodyellow;
+        transform: rotate(360deg);
+        border-radius: 100%;
+    }
+}
+

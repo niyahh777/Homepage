@@ -1,4 +1,16 @@
+
+
+h1{
+    color: rgb(5, 60, 124);
+   text-decoration: rgb(15, 62, 150);
+   text-underline-position: below;
+   text-align: center;
+}
+
 body{
     background-color: aqua;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3d6ySgwlp_X2ylIa3vdXZgJy0jNuS4qTzlKlpKt6cLCkKULpo5TUdYUS0Ios6qkaanryC5fxpbnD2sVevtHN2FdkJNxIGYfxvaGU4oYCDT7kIYNZKrRSxqpBaEV4iMBUchXGzyISkY1RkO2DwkrfG9_O4-WRERguJYosp7M-j-VELtbZ8iu5q9YFUpSY/w1600/cyberpunk-cityscape-rain-4k-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 

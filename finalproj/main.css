@@ -1,3 +1,7 @@
+
+*{
+  box-sizing: border-box;
+}
 h1{
   
     color: rgb(204, 190, 66);
@@ -43,11 +47,12 @@ img{
    text-align: center;
     color: rgb(216, 197, 88);
     height: 65%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 250px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
-    left: 0;
+    left: -200px;
+    padding: 25px;
     border-image: url(mirror.png) 80 fill / 50px / 50px stretch;
     border-radius: 85%;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUPt_2s--RrR9M3EJRLkrTCkO_KLEZYNKZn30zmhJ4dHAEgxo_C98i5ILbuuaw9cHFqpc&usqp=CAU);
@@ -55,6 +60,9 @@ img{
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  .sidenav.active{
+    left:0 ;
   }
   .sidenav a {
     padding: 8px 8px 8px 32px;

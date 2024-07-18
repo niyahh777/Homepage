@@ -1,0 +1,83 @@
+h1{
+  
+    color: rgb(204, 190, 66);
+    text-align: center;
+    font-family:'Lucida Sans',serif,;
+    font-size: 65px;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-shadow: 2px 10px 0 rgba(0, 0, 0, 0.2);
+    border-image: url(headingborder.png) 60 fill / 40px / 50px space;
+}
+
+p{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: rgb(214, 203, 103);
+
+ text-shadow: 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+pre{
+  color: rgb(28, 41, 17);
+  
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+body{
+    background-image: url(https://www.houseofhackney.com/media/catalog/product/cache/23fac7a25a90c404776cd6886e90767f/f/l/flora_fantasia_digital_wallpaper_sky_blue_1_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #333;
+    
+}
+
+img{
+  margin-left:28%;
+  margin-top: 10%;
+  
+}
+
+.sidenav {
+   text-align: center;
+    color: rgb(216, 197, 88);
+    height: 65%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    border-image: url(mirror.png) 80 fill / 50px / 50px stretch;
+    border-radius: 85%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUPt_2s--RrR9M3EJRLkrTCkO_KLEZYNKZn30zmhJ4dHAEgxo_C98i5ILbuuaw9cHFqpc&usqp=CAU);
+    background-size: cover;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: underline;
+    text-shadow: 2px 15px 0 rgba(0, 0, 0, 0.2);
+    font-size: 25px;
+    color: #d49898;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: rgb(139, 107, 24);
+  }
+  
+  .sidenav .openbtn{
+    top: 0;
+    left: 30px;
+    
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }

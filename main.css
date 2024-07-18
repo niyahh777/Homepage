@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(255, 120, 199);
+    background-image: url(https://www.universetoday.com/wp-content/uploads/2010/01/horizonmoon_nasa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: blue;
+}
+ul{
+    text-align: center;
+}
+a{
+ color: rgb(8, 8, 131);
+ 
+}
+a:hover{
+    color:aliceblue ;
+}

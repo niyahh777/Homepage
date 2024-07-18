@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue;
+}
+img{
+    max-width: 100%;
+}
+
+.container{
+    background: lightblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+    /* align-items is for vertical-align on row orient*/
+    gap: 20px;
+}
+
+.item{
+    background: bisque;
+    padding: 10px;
+    border: 1px solid;
+    width: 200px;
+}

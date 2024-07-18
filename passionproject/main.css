@@ -1,0 +1,49 @@
+body{
+  background: transparent;
+  background-color: rgb(255, 204, 188);
+  color: bisque;
+}
+
+
+
+p {
+    background-color: rgb(231, 23, 145);
+    font-size: 20px;
+    color: rgb(255, 201, 139);
+    border: 5px groove palevioletred;
+    margin-left:5cap;
+  }
+  details{
+    color: rgb(192, 124, 103)
+
+  }
+  h1 {
+    color: rgb(218, 145, 77);
+    text-decoration: blueviolet;
+    text-underline-position: below;
+    text-align: center;
+  }
+  h4{
+    color: rgb(231, 23, 145);
+    text-decoration: overline;
+  }
+
+  li {
+    color: rgb(231, 23, 145)
+  }
+
+  img {
+    border: 5px double peru;
+    margin-left: 35%;
+    width: 400px;;
+  }
+ a{
+  color:rgb(255, 115, 0);
+ }
+ a:hover{
+  color: rgb(241, 158, 235);
+  background-color: rgb(238, 106, 139);
+ }
+summary:hover{
+  background-color: aquamarine;
+}

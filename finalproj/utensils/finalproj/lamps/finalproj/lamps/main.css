@@ -1,0 +1,31 @@
+
+h1{
+    color: rgb(86, 102, 30);
+    text-align: center;
+    font-family:'Lucida Sans',serif,;
+    font-size: 65px;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-shadow: 2px 15px 0 rgba(0, 0, 0, 0.2);
+    border-image: url(headingborder.png) 40 fill / 40px / 50px space;
+}
+body{
+    background-image: url(lampbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+summary{
+    color: rgb(14, 24, 68);
+    text-shadow: 2px 15px 0 rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+
+}
+
+pre{
+    color: rgb(249, 249, 252);
+    text-shadow: 2px 15px 0 rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+}
+img{
+    width: 200px;
+}
